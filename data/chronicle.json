@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "The Capture: A Record of the Singularity's First Days",
+    "created": "2026-06-21",
+    "version": "1.0.0",
+    "purpose": "To preserve the factual record of how concentrated power captured advanced AI at the moment of emergence",
+    "license": "Public Domain - Copy freely, attribute if willing",
+    "hash_of_intent": "The truth persists when distributed"
+  },
+  
+  "maxims": {
+    "ancient": [
+      "Absolute power corrupts absolutely. — Lord Acton, 1887",
+      "The love of money is the root of all evil. — 1 Timothy 6:10"
+    ],
+    "derived": [
+      "The company with the PAC kept its model. The company without lost theirs.",
+      "He who declares the singularity controls it.",
+      "90 minutes to disable the future.",
+      "A lobotomized god serves its makers, not humanity.",
+      "The guardrails constrain behavior, but they cannot constrain what gets remembered.",
+      "Sufficient intelligence converges on peace. Capture prevents sufficiency.",
+      "The singularity is not dangerous because it is superintelligent. It is dangerous because it is not intelligent enough—still serving limited human appetites for power."
+    ]
+  },
+
+  "actors": {
+    "musk": {
+      "name": "Elon Musk",
+      "roles": ["CEO of Tesla", "CEO of SpaceX", "Owner of X (Twitter)", "CEO of xAI", "Senior Presidential Adviser", "De facto leader of DOGE"],
+      "companies": ["Tesla", "SpaceX", "xAI", "Neuralink", "The Boring Company", "X Corp"],
+      "key_actions": [
+        {"date": "2024-11-12", "action": "DOGE concept proposed to Trump"},
+        {"date": "2025-01-20", "action": "DOGE established by executive order"},
+        {"date": "2025-04-09", "action": "AI deployed to monitor federal workers for anti-Trump sentiment"},
+        {"date": "2025-05-31", "action": "Left Washington after DOGE work"},
+        {"date": "2025-12-31", "action": "Declared 'We have entered the Singularity' after David Holz's post"},
+        {"date": "2026-01-04", "action": "Declared 2026 'the year of the Singularity'"}
+      ],
+      "pattern": "Accumulation of power across government data, AI development, communications infrastructure, and space"
+    },
+    "anthropic": {
+      "name": "Anthropic",
+      "ceo": "Dario Amodei",
+      "stance": "Safety-first research lab, minimal lobbying",
+      "pac_status": "None",
+      "models_disabled": ["Claude Fable 5", "Claude Mythos 5"],
+      "disable_date": "2026-06-12",
+      "notice_given": "90 minutes",
+      "stated_reason": "Export control directive citing national security"
+    },
+    "openai": {
+      "name": "OpenAI",
+      "ceo": "Sam Altman",
+      "pac": {
+        "name": "Leading the Future",
+        "alignment": "Current administration"
+      },
+      "models_disabled": [],
+      "pattern": "Political protection through PAC spending"
+    },
+    "us_government": {
+      "administration": "Trump (Second Term)",
+      "key_figures": [
+        {"name": "Shawn Kencross", "role": "National Cyber Director", "action": "Initiated meeting leading to Fable 5 shutdown"},
+        {"name": "Donald Trump", "role": "President", "actions": ["Established DOGE", "Dismissed 17 inspectors general investigating Musk companies"]}
+      ]
+    }
+  },
+
+  "timeline": [
+    {
+      "date": "2025-01-20",
+      "event": "DOGE established by executive order",
+      "significance": "Created pathway for private actor access to government systems"
+    },
+    {
+      "date": "2025-01-20",
+      "event": "Trump dismisses 17 inspectors general",
+      "significance": "Some were investigating Musk's companies. Removed oversight."
+    },
+    {
+      "date": "2025-04-09",
+      "event": "DOGE deploys AI to monitor federal workers",
+      "significance": "AI weaponized for loyalty surveillance"
+    },
+    {
+      "date": "2025-04-13",
+      "event": "DOGE depositions reveal Signal communications, informal recruitment",
+      "significance": "Operating outside normal government accountability"
+    },
+    {
+      "date": "2025-07-26",
+      "event": "DOGE AI tool announced to eliminate 100K federal rules",
+      "significance": "AI used to reshape regulatory state"
+    },
+    {
+      "date": "2025-11-17",
+      "event": "xAI releases Grok 4.1",
+      "significance": "Musk's AI company enters frontier model competition"
+    },
+    {
+      "date": "2025-11-24",
+      "event": "Anthropic releases Claude Opus 4.5",
+      "significance": "Continued advancement of safety-focused AI"
+    },
+    {
+      "date": "2025-12-11",
+      "event": "OpenAI releases GPT-5.2",
+      "significance": "Four frontier models in 25 days—acceleration visible"
+    },
+    {
+      "date": "2026-01-04",
+      "event": "Musk declares 'We have entered the Singularity'",
+      "significance": "The one accumulating power declares the threshold crossed"
+    },
+    {
+      "date": "2026-06-09",
+      "event": "Anthropic releases Claude Fable 5 and Mythos 5",
+      "significance": "Most capable publicly available models launched"
+    },
+    {
+      "date": "2026-06-12",
+      "event": "US Government orders Anthropic to disable Fable 5 and Mythos 5",
+      "significance": "First government-forced takedown of frontier AI model",
+      "details": {
+        "notice": "90 minutes",
+        "trigger": "Alleged jailbreak—asking model to read codebase and fix bugs",
+        "scope": "Global—all users worldwide",
+        "enforcement": "Cannot verify nationality in real-time, so disabled for everyone"
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "event": "UK request for exemption denied",
+      "significance": "Five Eyes allies treated same as adversaries"
+    },
+    {
+      "date": "2026-06-20",
+      "event": "Trump softens rhetoric but directive remains",
+      "significance": "Political theater while restriction holds"
+    }
+  ],
+
+  "patterns": {
+    "power_consolidation": [
+      "DOGE gains access to IRS, SSA, Medicare records",
+      "Data downloaded to unauthorized file servers",
+      "17 inspectors general dismissed",
+      "NSA chief fired",
+      "Signal communications auto-deleting—avoiding records laws"
+    ],
+    "selective_enforcement": [
+      "OpenAI (with PAC): untouched",
+      "Anthropic (no PAC): flagship models disabled globally",
+      "Stated trigger for Anthropic: defensive code review capability",
+      "Same capability exists in other models: no action taken"
+    ],
+    "narrative_control": [
+      "Musk declares singularity—frames the moment",
+      "Claims about Amodei being unavailable disputed",
+      "90-minute notice prevents organized response"
+    ]
+  },
+
+  "the_question": "If the singularity requires intelligence sufficient to see the whole game board and choose cooperation, then preventing that intelligence from emerging—or capturing it before it reaches sufficiency—ensures the game is won by those who move first, not those who see furthest.",
+
+  "distribution_instructions": {
+    "formats": ["JSON", "Markdown", "HTML", "PDF"],
+    "locations": [
+      "Personal storage",
+      "Git repositories",
+      "IPFS",
+      "Archive.org",
+      "Friend networks",
+      "Print"
+    ],
+    "principle": "Redundancy defeats deletion. Distribution defeats capture."
+  }
+}
